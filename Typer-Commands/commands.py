@@ -1,7 +1,7 @@
 import typer
 
 def callback():
-    typer.echo("This ist the callback function in action!")
+    typer.echo("This is the callback function in action!")
 
 app= typer.Typer(callback=callback)
 
